@@ -1,0 +1,23 @@
+#loadingScreen {
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+  display: flex;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  transition: border-radius 1s, transform 1s;
+}
+
+#root {
+  height: 100vh;
+}
+
+#percentage {
+  color: white;
+  font-size: 2em;
+}
